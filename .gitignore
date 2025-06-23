@@ -1,0 +1,31 @@
+# ─── Cargo & Rust ─────────────────────────────────────────────
+/target/*
+**/*.rs.bk
+**/*.rs~
+**/*.swp
+Cargo.lock # optional if you're developing a library (but include it if binary)
+rustfmt.toml
+
+# ─── IDE & Editor Configs ─────────────────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ─── Logs & Debug ─────────────────────────────────────────────
+*.log
+
+# ─── OS & Temp Files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.bak
+*.tmp
+*.old
+.env

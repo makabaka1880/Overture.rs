@@ -1,0 +1,6 @@
+[package]
+name = "overture"
+version = "0.0.1"
+
+[dependencies]
+figlet-rs = "0.1.5"
