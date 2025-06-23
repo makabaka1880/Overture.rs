@@ -1,5 +1,6 @@
-# 🎼 Overture.rs
+# Overture.rs
 
+## 🎼 Overview
 **Overture** is an experimental, opinionated, and ergonomic middleware for building high-performance
 **text-based user interfaces (TUIs)** in Rust. It offers a clean rendering pipeline built
 around composable primitives, predictable layout behavior, and ANSI-compatible styling.
@@ -91,7 +92,7 @@ Each UI element is built using method chaining, enabling fluent configuration.
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-> For a full demo, see `demo::test()`.
+> For a full demo, see `demo::banner()`.
 
 ## ⚠️ Status
 
