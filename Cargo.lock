@@ -10,7 +10,7 @@ checksum = "4742a071cd9694fc86f9fa1a08fa3e53d40cc899d7ee532295da2d085639fbc5"
 
 [[package]]
 name = "overture"
-version = "0.0.1"
+version = "0.0.1-dev"
 dependencies = [
  "figlet-rs",
 ]
