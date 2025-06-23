@@ -10,7 +10,7 @@ use crate::prelude::*;
 
 use std::io;
 
-pub fn test() {
+pub fn banner() {
     let (cols, rows) = (130, 30);
     let mut engine_instace = OvertureRenderEngine::new(cols as u32, (rows - 3) as u32);
     let term_dim = DiscreteCoord::new(cols, rows);

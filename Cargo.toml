@@ -1,6 +1,11 @@
 [package]
 name = "overture"
 version = "0.0.1"
+edition = "2024"
+authors = ["Sean Li <makabaka1880@outlook.com>"]
+description = "Minimal, composable middleware for rendering TUI's in Rust."
+license = "MIT"
+repository = "https://github.com/makabaka1880/overture"
 
 [dependencies]
 figlet-rs = "0.1.5"
