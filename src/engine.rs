@@ -62,9 +62,9 @@ use crate::interfaces::{
 /// # Rendering Flow
 ///
 /// 1. Construct renderables.
-/// 2. Load them using [`load_renderable`] with an optional placement config.
-/// 3. Call [`render`] with the intended height.
-/// 4. Call [`flush`] to finalize display.
+/// 2. Load them using [`load_renderable`](OvertureRenderEngine::load_renderable) with an optional placement config.
+/// 3. Call [`render`](OvertureRenderEngine::render) with the intended height.
+/// 4. Call [`flush`](OvertureRenderEngine::flush) to finalize display.
 ///
 /// # See Also
 ///

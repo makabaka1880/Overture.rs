@@ -67,7 +67,7 @@
 //! This example creates a centered styled text banner and surrounds it with a soft box frame.
 //! Each UI element is built using method chaining, enabling fluent configuration.
 //! 
-//! ```
+//! ```text
 //! ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
 //! │                                                                                                  │
 //! │                                                                                                  │

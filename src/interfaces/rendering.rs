@@ -189,7 +189,7 @@ pub trait Renderable {
     /// Use `prune` after transforming or composing UI elements to eliminate redundant pixels,
     /// especially in generated or dynamically translated content.
     ///
-    /// To prevent important blanks from being pruned, use [`protect`] or [`set_protect`] beforehand.
+    /// To prevent important blanks from being pruned, use [`protect`](#method.protect) or [`set_protect`](trait.Renderable.html#method.set_protect) beforehand.
     fn prune(&self) -> Vec<Pixel> {
         self.rasterize()
             .into_iter()
@@ -199,7 +199,7 @@ pub trait Renderable {
 
     /// Returns a copy of the renderable's pixels, with all pixels marked as protected.
     ///
-    /// This ensures that these pixels will **not** be removed by [`prune`], even if their character
+    /// This ensures that these pixels will **not** be removed by [`prune`](#method.prune), even if their character
     /// content is the blank character (`' '`).
     ///
     /// # Use Case
@@ -217,7 +217,7 @@ pub trait Renderable {
     /// Returns a copy of the renderable's pixels, setting the `protected` flag
     /// to the given `bool` for each pixel.
     ///
-    /// Unlike [`protect`], which sets all flags to `true`, this method provides
+    /// Unlike [`protect`](#method.protect), which sets all flags to `true`, this method provides
     /// precise control over protection status in dynamic cases.
     ///
     /// # Use Case

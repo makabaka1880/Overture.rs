@@ -23,15 +23,9 @@
 //!
 //! # Usage
 //!
-//! The module is organized into three submodules:
-//!
-//! - [`styling`]: Contains string constants for text style escape codes.
-//! - [`color`]: Contains string constants and functions for color escape codes, including
-//!   24-bit RGB colors.
-//! - [`cursor`]: Contains functions and constants for cursor movements and screen manipulations.
-//!
+//! The module is internally organized into three submodules.
 //! The `ANSISequence` enum encapsulates various ANSI escape sequences in a type-safe manner,
-//! with a convenient method [`to_esc_code`] to retrieve the actual escape code string.
+//! with a convenient method [`to_esc_code`](#method.to_esc_code) to retrieve the actual escape code string.
 //!
 //! # Example
 //!
