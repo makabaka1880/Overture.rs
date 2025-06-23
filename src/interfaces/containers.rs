@@ -106,7 +106,7 @@ impl<'a> Iterator for RenderableListIter<'a> {
 
     fn next(&mut self) -> Option<Self::Item> {
         match self.current {
-            Some(RenderableList::Link(ref head, ref tail)) => {
+            Some(RenderableList::Link(head, tail)) => {
                 self.current = Some(tail);
                 Some(head.as_ref())
             }

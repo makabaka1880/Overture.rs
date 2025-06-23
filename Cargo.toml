@@ -2,10 +2,33 @@
 name = "overture"
 version = "0.0.1"
 edition = "2024"
+rust-version = "1.87"
 authors = ["Sean Li <makabaka1880@outlook.com>"]
+
 description = "Minimal, composable middleware for rendering TUI's in Rust."
-license = "MIT"
+license-file = "LICENSE.txt"
+readme = "README.md"
+homepage = "https://github.com/makabaka1880/overture"
+documentation = "https://docs.rs/overture"
 repository = "https://github.com/makabaka1880/overture"
+
+categories = ["command-line-utilities", "graphics", "rendering"]
+keywords = ["tui", "terminal", "ansi", "graphics", "render"]
+
+include = ["src/**", "README.md", "Cargo.toml", "LICENSE", "examples/**"]
+exclude = [".vscode", "target", "tests", "*.psd", "notes", "screenshots", "scripts"]
+
+[badges]
+travis-ci = { repository = "makabaka1880/overture" }
+maintenance = { status = "actively-developed" }
+
+[lib]
+name = "overture"
+path = "src/lib.rs"
+
+[[example]]
+name = "demo"
+path = "src/demo.rs"
 
 [dependencies]
 figlet-rs = "0.1.5"

@@ -107,5 +107,4 @@ pub mod engine;
 pub mod primitives;
 pub mod prelude;
 
-pub mod demo;
 pub(crate) mod utils;

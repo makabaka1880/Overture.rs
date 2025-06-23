@@ -6,7 +6,7 @@
 // 
 // Makabaka1880, 2025. All rights reserved.
 
-use interfaces::rendering::Renderable;
+use crate::interfaces::rendering::Renderable;
 
 use super::geometry::DiscreteCoord;
 
